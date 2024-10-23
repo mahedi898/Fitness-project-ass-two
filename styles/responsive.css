@@ -1,0 +1,133 @@
+@media screen and (max-width:992px){
+    .nav-container{
+        padding: 10px;
+    }
+    .nev-hamber {
+        width: 30px;
+        display: none;
+    } 
+    .header-box{
+        flex-direction: column;
+    }
+    
+   
+
+
+}
+
+@media screen and (max-width:576px) {
+    .nev-hamber {
+        width: 30px;
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .header-box{
+        flex-direction: column;
+    }
+
+    .header-container{
+        max-width: 1440px;
+        height: 1050px;
+        background-color: #0c0b0b;
+        margin: 0 auto;
+        display: block;
+    }
+    .image-dot-two{
+        margin-top: -280px;
+        margin-left: 100px;
+        padding: 5px 10px;
+    }
+    .header-img{
+        margin-left: 130px;
+        position: relative;
+        margin-top: 50px;
+    }
+    .header-box{
+        margin: 0 10px;
+        color: white;
+    }
+    .image-dot{
+        position: absolute;
+        max-width: 116px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-left: 290px;
+        margin-top: 70px;
+        z-index: 1;
+        backdrop-filter: blur(10px);    
+        border: 1px solid rgb(105, 103, 103);
+    }
+
+    .change-card-container{
+        display: flex; 
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .run-section{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .run-img{
+        margin-top: 40px;
+        max-width: 400px;
+
+    }
+    .run-buttn{
+        background-color: #E6533C;
+        color: white;
+        padding: 10px 170px;
+        border-radius: 20px;
+        border: 0;
+    }
+
+    .run-text-container{
+        max-width: 400px;
+        margin: 0 auto;
+        
+    }
+    .bmi-calculator-container{
+        flex-direction: column;
+    }
+
+    .h-w-bmt{
+        display: flex;
+        gap: 5px;
+    }
+    .age{
+        display: flex;
+        gap: 5px;
+    }
+    .long-option{
+        max-width: 100%;
+    }
+    .clculate{
+        width: 100%;
+    }
+    .team-member-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .last-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-news-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-box{
+        width: 100%;
+    }
+}
